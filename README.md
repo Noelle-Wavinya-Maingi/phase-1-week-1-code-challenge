@@ -22,5 +22,5 @@ The program prints the total demerit points and if they are equal to or exceed 1
 
 # Net Salary Calculator
 
-Write a program that calculates a user's net salary based on the inputs of their basic salary and benefits. This program should calculate the payee(tax) NHIF deductions, NSSF deductions, gross income and net salary. The specific calculations and deductions were given by the link below:
+Write a program that calculates a user's net salary based on the inputs of their basic salary and benefits. This program should calculate the payee(tax) NHIF deductions, NSSF deductions, gross income and net salary. The specific calculations and deductions were directed by the rates in this link:
 [Tax Rates](https://www.aren.co.ke/payroll/taxrates.htm#NHIF)
