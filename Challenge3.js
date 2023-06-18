@@ -1,12 +1,15 @@
 //This function is to calculate the net income of a user after being prompted to input their Basic salary and their Benefits.
 
 function netSalaryCalculator() {
+  //The user is prompted to input their basic salary and benefits
   let basicSalary = parseFloat(prompt("Enter your basic salary:"));
 
   let benefits = parseFloat(prompt("Enter your benefits:"));
 
+  //Gross income is the total amount the user earned before any deductions and tax are made.
   let grossIncome = basicSalary + benefits;
 
+  //NHIF and NSSF are contributions that provide health and retirement benefits and for NHIF it varies for the different gross income ranges. As for NSSF its 6% of your gross income.
   let nhifContribution = 0;
 
   if (grossIncome <= 5999) {
@@ -47,9 +50,11 @@ function netSalaryCalculator() {
 
   let nssfContribution = grossIncome * 0.06;
 
-  let totalDeductable = nhifContribution + nhifContribution;
+  //Deductable is the money that is deducted from your gross income before tax. Total deductible is the total amout a user is deducted from their gross income to get their taxable income.
+  let totalDeductible = nhifContribution + nhifContribution;
 
-  let taxableIncome = grossIncome - totalDeductable;
+  //Taxable income is the amount of money that is taxed. Tax varies according the the taxable income ranges and for this specific code we have three different ranges.
+  let taxableIncome = grossIncome - totalDeductible;
 
   let tax = 0;
 
@@ -61,8 +66,10 @@ function netSalaryCalculator() {
     tax = taxableIncome * 0.3;
   }
 
-  let netSalary = grossIncome - totalDeductable - tax;
+  //Net salary is gotten by subtracting gross income, total deductible and tax.
+  let netSalary = grossIncome - totalDeductible - tax;
 
+  //These alerts show the output of the user's gross income, NHIF and NSSF contribution, tax and their Net Salary.
   alert(`Your gross income is Ksh ${grossIncome}.`);
 
   alert(`Your NHIF contribution is Ksh ${nhifContribution}.`);
@@ -74,4 +81,5 @@ function netSalaryCalculator() {
   alert(`Your net salary is Ksh ${netSalary}.`);
 }
 
+//Calling the function netSalaryCalculator
 netSalaryCalculator();
