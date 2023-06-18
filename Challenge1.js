@@ -1,4 +1,4 @@
-//This function is expected to output a grade after a user inputs marks thar are between 0 and 100
+//This function is expected to output a grade after a user inputs marks that are between 0 and 100
 function gradeGenerator() {
   let marks = prompt("Kindly input your marks");
   //The first switch case checks if the value inputted by a user is greater than 100 and less than 0. If it is it alerts Invalid grade and breaks otherwise it goes to default.
