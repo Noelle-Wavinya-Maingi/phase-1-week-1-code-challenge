@@ -1,5 +1,4 @@
 CODE CHALLENGE WEEK 1
-
 ======================
 
 DESCRIPTION
