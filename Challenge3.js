@@ -81,5 +81,5 @@ function netSalaryCalculator() {
   alert(`Your net salary is Ksh ${netSalary}.`);
 }
 
-//Calling the function netSalaryCalculator
+//Calling the function netSalaryCalculator.
 netSalaryCalculator();
