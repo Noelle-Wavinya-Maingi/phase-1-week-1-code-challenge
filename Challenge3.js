@@ -1,3 +1,5 @@
+//This function is to calculate the net income of a user after being prompted to input their Basic salary and their Benefits.
+
 function netSalaryCalculator() {
   let basicSalary = parseFloat(prompt("Enter your basic salary:"));
 
