@@ -1,4 +1,4 @@
-# CODE CHALLENGE WEEK 1
+# CODE CHALLENGE PHASE 1 WEEK 1
 
 # Description
 
@@ -23,4 +23,18 @@ The program prints the total demerit points and if they are equal to or exceed 1
 # Net Salary Calculator
 
 Write a program that calculates a user's net salary based on the inputs of their basic salary and benefits. This program should calculate the payee(tax) NHIF deductions, NSSF deductions, gross income and net salary. The specific calculations and deductions were directed by the rates in this link:
-[Tax Rates](https://www.aren.co.ke/payroll/taxrates.htm#NHIF)
+[Tax Rates](https://www.aren.co.ke/payroll/taxrates.htm#NHIF).
+
+# Project setup
+
+To run the code challange, follow these steps:
+
+1. Clone the repository: git clone git@github.com:Noelle-Wavinya-Maingi/phase-1-week-1-code-challenge.git
+
+2. Navigate to your local directory: cd nameofthedirectory
+
+3. Execute the program on a webpage: index.html
+
+
+# Author
+The author of the code challenge solution is Noelle Maingi.
